@@ -1,0 +1,14 @@
+---
+title: "Data Analysis using R for African Fellows"
+subtitle: "Data Visualisation Workshop"
+author: "Oluwafemi Oyedele<br><small>17 July 2024</small>"
+footer: "[BB1464.github.io/chicas-data-viz-workshop](https://nrennie.github.io/chicas-data-viz-workshop)"
+format:
+  LUstyle-revealjs:
+    self-contained: true
+execute: 
+  eval: true
+  echo: false
+  warning: false
+---
+
