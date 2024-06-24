@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis using R \nfor African Fellows👨‍💻"
+title: "Data Analysis using R‍💻"
 #subtitle: "Data Analysis Workshop\nfor African Fellows"
 author: "Oluwafemi Oyedele<br><small>17 July 2024</small>"
 footer:  "[Data Analysis using R](https://github.com/BB1464/Data-Analysis-using-R) 👨‍💻"
