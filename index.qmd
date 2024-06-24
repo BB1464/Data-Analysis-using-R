@@ -1,6 +1,6 @@
 ---
-title: "Data Analysis using R 👨‍💻"
-subtitle: "Data Analysis Workshop\nfor African Fellows"
+title: "Data Analysis using R \nfor African Fellows👨‍💻"
+#subtitle: "Data Analysis Workshop\nfor African Fellows"
 author: "Oluwafemi Oyedele<br><small>17 July 2024</small>"
 footer:  "[Data Analysis using R](https://github.com/BB1464/Data-Analysis-using-R) 👨‍💻"
 logo: "img/msstate.svg"
@@ -67,7 +67,6 @@ library(fontawesome)
 library(emoji)
 ```
 
-
 ## Learning Objectives✍️✍️✍️
 
 ::: incremental
@@ -81,11 +80,11 @@ library(emoji)
 
 -   Data wrangling
 
-- Design of Experiment
+-   Design of Experiment
 
-- Analysis of Variance (CRD, RCBD, Split Plot e.t.c.)
+-   Analysis of Variance (CRD, RCBD, Split Plot e.t.c.)
 
-- Post Hoc Test
+-   Post Hoc Test
 :::
 
 ## Overview {.test}
@@ -225,7 +224,6 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 ::: incremental
 -   Demontration on the various tabs found in R and R Studio.
 :::
-
 
 ## **Getting Help** {.test}
 
