@@ -147,7 +147,7 @@ African Fellows, Mississippi State University, 2024!!!
 
 <p align="center">
 
-<img src="https://github.com/BB1464/Data-Analysis-using-R/blob/master/img/msstate.svg" width="50%"/>
+<img src="https://github.com/BB1464/Data-Analysis-using-R/blob/master/slides/images/msstate.svg" width="50%"/>
 
 </p>
 
