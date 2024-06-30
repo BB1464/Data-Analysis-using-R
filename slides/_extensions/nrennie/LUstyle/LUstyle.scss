@@ -20,15 +20,15 @@ $presentation-line-height: 1.5em;
 $presentation-heading-color: #000000 !default;
 
 // code
-$code-color: #b20e10 !default;
+$code-color: #5D1725 !default;
 $code-block-font-size: 0.6em;
 $code-block-border-color: #000000;
 $code-block-bg: #fafafa;
 
-// bg colours 
+// bg colours
 $body-color: #000000;
-$link-color: #b20e10;
-$body-bg: #ffffff;
+$link-color: #5D1725;
+$body-bg: #C1C6C8;
 
 /*-- scss:rules --*/
 
@@ -72,7 +72,7 @@ section.has-dark-background a, section.has-dark-background a:hover {
 .reveal .footer {
   color: #000000;
   font-family: $font-family-sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 .reveal .slide-logo {
@@ -87,12 +87,12 @@ section.has-dark-background a, section.has-dark-background a:hover {
     left: 5px;
     top: 15px;
     padding-left: 10px;
-    color: #b4b7b8;
+    color: #C1C6C8;
   }
 
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #b20e10;
+  color: #5D1725;
   height: 2%;
 }
 
@@ -104,7 +104,7 @@ section.has-dark-background a, section.has-dark-background a:hover {
   text-align: center !important
 }
 
-.scrolling {
-  overflow-x: auto;
-  white-space: nowrap
+iframe {
+  margin:auto;
+  display:block;
 }

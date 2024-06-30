@@ -1,0 +1,235 @@
+---
+title: "Design of Experiment using R‍💻"
+date: today
+author: "Oluwafemi Oyedele"
+#suppress-bibliography: true
+slide-number: true
+show-slide-number: all
+self-contained: true 
+format:
+  LUstyle-revealjs:
+    #self-contained: true
+    auto-stretch: false
+    footer: "{{< fa envelope >}} [https://www.pss.msstate.edu](mailto:oo174@msstate.edu;mjm1166@msstate.edu) {{< fa globe >}} [Website](https://bb1464.github.io/oluwafemi-oyedele/) {{< fa brands linkedin >}} [Oluwafemi Oyedele](https://www.linkedin.com/in/oluwafemioyedele/)<br>[github.com/BB1464](https://github.com/BB1464/Data-Analysis-using-R) {{< fa brands github >}}"
+execute: 
+  eval: true
+  echo: fenced
+---
+
+## Outline
+
+::: incremental
+-   Basic ideas
+
+-   Definition of basic concepts
+
+-   Principles of good experimental design
+
+-   Field experimental design
+:::
+
+## Definition of basic terms {.test}
+
+::: incremental
+- **Experiment**: an investigation in which a researcher applies some **treatments** to **experimental units** and then observes its effect by measuring one or more response variables
+
+- **Treatment**: This is any measure or procedure whose effects are to be measured and perhaps compared with others.
+
+- **Experimental material**: Any element of an environment on which treatments are applied and observation made.
+:::
+
+## Definition of basic terms Cont.
+
+::: incremental
+-   **Experimental Plot**: This is the unit of experimental material receiving only one application of a treatment.
+
+-   **Sampling Unit**: This is that portion of the experimental unit taken for analysis and subsequently used for decision making.
+
+-   **Experimental Error**: This refers to the variation among experimental units receiving the same treatment.
+
+-   Block - group of homogeneous experimental unit
+:::
+
+## Experimental Design 
+
+::: incremental
+-   The term experimental design refers to a set of experiments that are prepared in advance of their execution
+
+-   There are many types of experimental designs CRD, RCBD, IBD, etc.
+
+-   In experimental design it is important to identify the sources of variation
+:::
+
+## Purpose of experimental design
+
+::: incremental
+-   Determine cause of variation in measured responses
+
+-   Identifying the variables that cause a maximum or minimal response
+
+-   Compare response between controlled variables
+
+-   Minimize the effect of experimental error
+
+-   Model future response values
+:::
+
+## Key Concept in Design of Experiment
+
+::: incremental
+-   Replicate: Two or more experiments using different experimental units, but with the same factor or independent variable settings
+
+-   Randomization: Is the process of randomly assigning treatments to experimental units. As a result of the random process, every treatment factors has the same probability
+
+-   Blocking: Is the procedure for gathering similar experimental units into a relatively homogeneous group.
+:::
+
+## Why blocking ?
+
+::: incremental
+-   Removes extraneous variation from data
+
+-   Serves as an error control strategy
+
+-   Enhances precision in inferential data analysis
+
+-   Block what you can and randomize what you cannot
+:::
+
+## Completely Randomized Design (CRD)
+
+::: incremental
+-   CRD is best suited for experiments with a small number of treatments
+
+-   It is used when experimental units are essentially homogeneous
+
+-   CRD is generally applicable to the lab experimental conditions
+
+-   Because of homogeneity requirement, it may be difficult to use this design for field experiments
+
+-   Principles of replication and randomization apply but not "local-control"
+:::
+
+## Condition for use
+
+::: incremental
+-   It is used where and when experimental materials are homogeneous
+
+-   And when the only source of variability apart from experimental error, is the treatment applied.
+:::
+
+## Randomized Complete Block Design (RCBD)
+
+::: incremental
+
+-   Probably the most used experimental design in agricultural field trial
+
+-   Each treatment replicated once in each block (balanced and complete)
+
+-   The block of experimental units should be as uniform as possible
+
+-   The randomization process for RCBD is applied separately to each block (Gomez and Gomez, 1984)
+
+-   The design is based on three principles of experimental design
+:::
+
+## Example and layout of RCBD
+
+-   A field experiment was carried out to evaluate and compare yield performances of four new varieties of cassava (B, C, D and E) with a standard check variety A. The trial was laid out in 3 randomized blocks.
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/fertility.png) 
+
+## Statistical Model for RCBD
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/rcbd_model.png)
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/rcbd_table.png)
+
+## Factorial experiment
+
+**Research problem**
+
+An experimenter wants to know (i) the best among the three newly developed varieties (V1, V2, and V3) of a crop (ii) the best among the dose of nitrogen fertilizer (N1, N2, N3, and N4) for the best yield of the same crop and (iii) also wants to know which variety among the three varieties under which dose of nitrogen provides the best yield.
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/factorial.png)
+
+## Example and layout of factorial experiment {.test}
+
+A study is to investigate the response of one variety to three levels of a new plant growth regulator (PGR) denoted by P1, P2, P3 and four levels of nitrogen fertilizer (N1, N2, N3, and N4). This is a 3 x 4 factorial experiment. A randomized block design with three replicates was adopted and the treatment combination were randomly assigned to the plots within each block.
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/factorial-layout.png)
+
+## Statistical model Factorial experiment {.test}
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/factorial-model.png)
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/factorial-anova.png)
+
+## Split plot design (SPD)
+
+::: incremental
+-   Design developed by Ronald Fisher (1925) for use in agricultural experiments
+
+-   It is a factorial design with restricted randomization of the treatment combinations within each block
+
+-   Two levels of experimental units
+
+    -   Main plot units
+    -   Sub plot units
+
+-   Randomization is a two-stage process
+
+-   The are two random errors
+
+    -   main-plot factor error
+    -   sub-plot factor error
+:::
+
+## Split plot design (SPD) Cont.
+
+-   Consider a study of the effects of two irrigation methods (factor A
+
+-- A1 and A2) and two fertilizers (factor B -- B1 and B2) on yield of a crop using three randomized block design ::: incremental - Consider a study of the effects of two irrigation methods (factor A
+
+-- A1 and A2) and two fertilizers (factor B -- B1 and B2) on yield of a crop using three randomized block design :::
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/split-plot-layout.png)
+
+## Example and layout of SPD
+
+An experiment was implemented to find the effect of spraying pesticide (A1, A2, and A3) to control cassava green mite pest on the yield of four varieties of cassava (V1, V2, V3, and V4) . The field design was a split plot in three randomized blocks (replicates)
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/split-plot-layout-2.png)
+
+## Statistical Model of Split Plot
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/split-plot-model.png)
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/split-plot-anova.png)
+
+
+## **QUESTIONS?**
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+library(fontawesome)
+```
+
+
+::: incremental
+::: columns
+::: {.column width="60%"}
+-   `r fontawesome::fa("linkedin")`: [Oluwafemi Oyedele](https://www.linkedin.com/in/oluwafemioyedele)
+
+-   `r fontawesome::fa("twitter")`: [\@OluwafemOyedele](https://twitter.com/OluwafemOyedele) `r emoji::emoji("thumbsup")`
+
+-   `r fontawesome::fa("github")` [github.com/BB1464](https://github.com/BB1464/Data-Analysis-using-R)
+
+-   `r fontawesome::fa("globe")` [bb1464.github.io](https://bb1464.github.io/oluwafemi-oyedele/)
+
+-   `r fontawesome::fa("briefcase")` [r4ds-slack-channel](http://r4ds.io/join)
+:::
+
+::: {.column width="40%"}
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/pix.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Oluwafemi" width="300"}
+:::
+:::
+:::

@@ -40,7 +40,7 @@ The African fellows do not need to have any previous knowledge in R before atten
 
 ## Schedule
 
-### Rice Hall, Mississippi State University, 2024
+### Dorman Hall, Lecture Room, Mississippi State University, 2024
 
 by **Oluwafemi Oyedele**
 
@@ -110,11 +110,15 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 ## Instructors
 
 - **Michael J. Mulvaney, PhD, CCA**
-Hartwig Endowed Chair for Soybean Agronomy
+**Hartwig Endowed Chair for Soybean Agronomy**
 Department of Plant and Soil Sciences 
 544 Rice Hall
 
 - **Oluwafemi Oyedele**
+PhD Student
+Department of Plant and Soil Sciences 
+543 Rice Hall
+Mississippi State University
 
 ## Presenter
 
@@ -128,7 +132,7 @@ The slides can be found [**here**](https://bb1464.github.io/Data-Analysis-using-
 ## Packages
 
 my_packages <- c("tidyverse","readxl","factoextra","agricolae","agridat","lmerTest","lme4","sjPlot","skimr","ggtext",
-"exrafont","correlation","metan","fontawesome","emoji","devtools","correlationfunnel","writexl","pastecs","rsthemes","esquisse","here","gridExtra")
+"exrafont","correlation","metan","fontawesome","emoji","devtools","multcomp","writexl","pastecs","rsthemes","esquisse","here","gridExtra")
 
 install.packages(my_packages, repos ="http://cran.rstudio.com")
 
