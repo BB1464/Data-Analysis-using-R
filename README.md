@@ -23,7 +23,7 @@ The training will take you from the very basics in R syntax, to data handling an
 
 -   Data Import and Export
 
--   Data summary (Simple Descriptive analysis)
+-   Descriptive statistics
 
 -   Data wrangling
 
@@ -94,10 +94,10 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 | Date       | Time                | Activities                                                                                       |
 |-------------|-------------|-----------------------------------------------|
 | 2024-07-18 | 08:30 AM to 11:30 PM | Recap and Questions                                                                              |
-| 2024-07-18 | 08:30 AM to 11:30 PM | Design of Experiment (CRD, RCBD, Latin Square Design, Split Plot Design) |
+| 2024-07-18 | 08:30 AM to 11:30 PM | Design of Experiment (CRD, RCBD, Split Plot Design) |
 | 2024-07-18 | 08:30 AM to 11:30 PM | Data Visualization                                                                                |
 | 2024-07-18 | 08:30 AM to 11:30 PM | Correlation                                                                                      |
-| 2024-07-18 | 08:30 AM to 11:30 PM | Cluster Analysis                                                                                 |
+
 
 # Day 3
 

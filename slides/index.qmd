@@ -52,13 +52,13 @@ execute:
 
 -   Data Import and Export
 
--   Data summary (Simple Descriptive analysis)
+-   Descriptive statistics
 
 -   Data wrangling
 
 -   Design of Experiment
 
--   Analysis of Variance (CRD, RCBD, Split Plot e.t.c.)
+-   Analysis of Variance (CRD, RCBD, Split Plot)
 
 -   Post Hoc Test
 
