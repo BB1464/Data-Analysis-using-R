@@ -27,20 +27,20 @@ The training will take you from the very basics in R syntax, to data handling an
 
 -   Data wrangling
 
--   Design of Experiment (CRD, RCBD, Latin Square Design, Split Plot Design and Alpha Latice Design).
+- Design of Experiment (CRD, RCBD, Split Plot Design).
 
-- Analysis of Variance (CRD,RCBD, Split Plot e.t.c.)
+- Analysis of Variance (CRD,RCBD, Split Plot)
 
 - Correlation
 
--   Data Visualization
+- Data Visualization
 
 
 The African fellows do not need to have any previous knowledge in R before attending the training.
 
 ## Schedule
 
-### Dorman Hall, Lecture Room, Mississippi State University, 2024
+### Rice Hall, Conference Room, Mississippi State University, 2024
 
 by **Oluwafemi Oyedele**
 
@@ -48,7 +48,7 @@ by **Oluwafemi Oyedele**
 
 :spiral_calendar: 17, 18,  and 19th of July, 2024
 
-:alarm_clock: 08:30 AM - 11:30 AM
+:alarm_clock: 08:30 AM - 04:30 PM
 
 :hotel: Mississippi State University
 
@@ -86,7 +86,7 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 | 2024-07-17 | 08:30 AM to 11:30 AM | Installation of R and R Studio             |
 | 2024-07-17 | 08:30 AM to 11:30 PM | Introduction to R and RStudio              |
 | 2024-07-17 | 08:30 AM to 11:30 PM | Data Import and Export                     |
-| 2024-07-17 | 08:30 AM to 11:30 PM | Data summary (Simple Descriptive analysis) |
+| 2024-07-17 | 08:30 AM to 11:30 PM | Data summary (Descriptive statistics) |
 | 2024-07-17 | 08:30 AM to 11:30 PM | Data Wrangling                             |
 
 # Day 2
@@ -131,12 +131,9 @@ The slides can be found [**here**](https://bb1464.github.io/Data-Analysis-using-
 
 ## Packages
 
-my_packages <- c("tidyverse","readxl","factoextra","agricolae","agridat","lmerTest","lme4","sjPlot","skimr","ggtext",
-"exrafont","correlation","metan","fontawesome","emoji","devtools","multcomp","writexl","pastecs","rsthemes","esquisse","here","gridExtra")
+my_packages <- c("tidyverse","readxl","factoextra","agricolae","agridat","lmerTest","lme4","sjPlot","skimr","ggtext","exrafont","correlation","metan","fontawesome","emoji","devtools","multcomp","writexl","pastecs","rsthemes","esquisse","here","gridExtra")
 
 install.packages(my_packages, repos ="http://cran.rstudio.com")
-
-devtools::install_github("agstn/dataxray")
 
 
 <h1 align="center">
