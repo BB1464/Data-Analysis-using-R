@@ -24,15 +24,15 @@ execute:
 ::: incremental
 ::: columns
 ::: {.column width="60%"}
-- PhD Student at **MSU**
+-   PhD Student at **MSU**
 
 <br>
 
-- Mentor at the Data Science Learning Community [Data Science Learning Community](https://dslc.io).
+-   Mentor at the Data Science Learning Community [Data Science Learning Community](https://dslc.io).
 
 <br>
 
-- Active member of the **TidyTuesday** project.
+-   Active member of the **TidyTuesday** project.
 
 <br>
 :::
@@ -42,6 +42,11 @@ execute:
 :::
 :::
 :::
+
+## May I meet you ?
+
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/meet.gif){width="850" height="600" fig-align="center"}
+
 
 ## Learning Objectives✍️✍️✍️ {background-color="#D9DBDB"}
 
@@ -62,7 +67,7 @@ execute:
 
 -   Post Hoc Test
 
-- Data Visualization
+-   Data Visualization
 :::
 
 ## Overview
@@ -87,13 +92,13 @@ execute:
 :::
 
 ::: {.column width="65%"}
-![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/install_R.png){style="float:right;padding: 0 0 0 5px;" fig-alt="Headshot of Dr. Maria Tackett" width="370"}
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/install_R.png){style="float:right;padding: 0 0 0 5px;" fig-alt="Headshot of Dr. Maria Tackett" width="300" height="300"}
 :::
 :::
 
 ## RStudio Installation Cont.
 
-![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/rstudioinstallation.png){fig-align="center"}
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/rstudioinstallation.png){width="850" height="600" fig-align="center"}
 
 ## **Download Training Material from Github**
 
@@ -115,9 +120,9 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 -   You'll now have a copy of the project created for this training on your computer.
 :::
 
-## Congratulation We are now set for the Training !!!
+## Congratulation we are now set for the training !!!
 
-![](https://media.giphy.com/media/uGjzzKY4BhtKw/giphy.gif){.absolute top="100" right="100" width="530" height="530"}
+![](https://media.giphy.com/media/uGjzzKY4BhtKw/giphy.gif){width="850" height="600" fig-align="center"}
 
 ## **What is R**💥💥💥 {.test}
 
@@ -214,45 +219,45 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 
 ```
 
-## Tidyverse website {.test}
+## Tidyverse website
 
-![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/tidyverse-website.gif)(https://www.tidyverse.org/)
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/tidyverse-website.gif) (https://www.tidyverse.org/)
 
-## Package Vignettes {.test}
+## Package Vignettes
 
-![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/skimr-vignette.gif) (https://cran.r-project.org/web/packages/skimr/vignettes/Using_skimr.html)
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/skimr-vignette.gif)  (https://cran.r-project.org/web/packages/skimr/vignettes/Using_skimr.html)
 
-## Twitter {.test}
+## Twitter 
 
-![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/rstats-twitter.gif)(https://twitter.com/search?q=%23rstats)
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/rstats-twitter.gif) (https://twitter.com/search?q=%23rstats)
 
-## **Data Science Learning Community** {.test}
+## **Data Science Learning Community** 
 
-```{r,fig.align='center',fig.height=20,fig.width=15}
+```{r,fig.align='center',fig.height=20,fig.width=15,echo=FALSE,warning=FALSE}
 knitr::include_graphics(path = here::here('E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/r4ds-website.png'))
 ```
 
-## Google 
+## Google
 
-![](img/programming-google.png)(https://twitter.com/ekaleedmiston/status/1081221822186696706)
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/programming-google.png) (https://twitter.com/ekaleedmiston/status/1081221822186696706)
 
-## Finding more functions and packages {.test}
+## Finding more functions and packages
 
 [R Documentation](https://www.rdocumentation.org/)
 
-## Rseek to look for help {.test}
+## Rseek to look for help
 
 <https://rseek.org/>
 
-## R Cheat Sheet {.test}
+## R Cheat Sheet
 
 [R Cheat Sheet](https://www.RStudio.com/resources/cheatsheets/)
 
 ## Chat GPT {.test}
 
-![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/gpt.jpg){.stacked-img}
+![](E:/R Projects Files/Data Analysis using R/slides/_extensions/nrennie/LUstyle/gpt.jpg)
 
-## Resources to Learn More 
+## Resources to Learn More
 
 ::: incremental
 -   [R4DS Book](https://r4ds.hadley.nz/)
