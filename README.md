@@ -23,7 +23,7 @@ The training will take you from the very basics in R syntax, to data handling an
 
 -   Data Import and Export
 
--   Descriptive statistics
+-   Exploratory data analysis (EDA)
 
 -   Data wrangling
 
@@ -84,7 +84,7 @@ use_course("https://github.com/BB1464/Data-Analysis-using-R/archive/refs/heads/m
 | 2024-07-17 | 08:30 AM to 11:30 AM | Installation of R and R Studio             |
 | 2024-07-17 | 08:30 AM to 11:30 PM | Introduction to R and RStudio              |
 | 2024-07-17 | 08:30 AM to 11:30 PM | Data Import and Export                     |
-| 2024-07-17 | 08:30 AM to 11:30 PM | Data summary (Descriptive statistics) |
+| 2024-07-17 | 08:30 AM to 11:30 PM | EDA |
 | 2024-07-17 | 08:30 AM to 11:30 PM | Data Wrangling                             |
 
 # Day 2

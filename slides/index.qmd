@@ -57,7 +57,7 @@ execute:
 
 -   Data Import and Export
 
--   Descriptive statistics
+-   Exploratory data analysis (EDA)
 
 -   Data wrangling
 
@@ -280,6 +280,9 @@ knitr::include_graphics(path = here::here('E:/R Projects Files/Data Analysis usi
 ::: incremental
 ::: columns
 ::: {.column width="60%"}
+
+-   `r fontawesome::fa("envelope")`: [Oluwafemi Oyedele](mailto:oo174@msstate.edu;mjm1166@msstate.edu)
+
 -   `r fontawesome::fa("linkedin")`: [Oluwafemi Oyedele](https://www.linkedin.com/in/oluwafemioyedele)
 
 -   `r fontawesome::fa("twitter")`: [\@OluwafemOyedele](https://twitter.com/OluwafemOyedele) `r emoji::emoji("thumbsup")`
