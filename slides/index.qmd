@@ -61,8 +61,6 @@ execute:
 
 -   Data wrangling
 
--   Design of Experiment
-
 -   Analysis of Variance (CRD, RCBD, Split Plot)
 
 -   Post Hoc Test
