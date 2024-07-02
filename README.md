@@ -129,7 +129,7 @@ The slides can be found [**here**](https://bb1464.github.io/Data-Analysis-using-
 
 ## Packages
 
-my_packages <- c("tidyverse","readxl","factoextra","agricolae","agridat","lmerTest","lme4","sjPlot","skimr","ggtext","exrafont","correlation","metan","fontawesome","emoji","devtools","multcomp","writexl","pastecs","rsthemes","esquisse","here","gridExtra")
+my_packages <- c("tidyverse","readxl","factoextra","agricolae","agridat","lmerTest","lme4","sjPlot","skimr","ggtext","exrafont","correlation","metan","fontawesome","emoji","devtools","multcomp","writexl","pastecs","rsthemes","esquisse","here","gridExtra","psych")
 
 install.packages(my_packages, repos ="http://cran.rstudio.com")
 
